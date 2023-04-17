@@ -4,28 +4,31 @@
     "description": "",
     "main": "server/server.js",
     "scripts": {
-      "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
-      "start:prod": "cd server && npm start",
-      "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-      "install": "cd server && npm i && cd ../client && npm i",
-      "seed": "cd server && npm run seed",
-      "heroku-postbuild": "cd client && npm run build"
+        "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+        "start:prod": "cd server && npm start",
+        "start:dev": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
+        "install": "cd server && npm i && cd ../client && npm i",
+        "seed": "cd server && npm run seed",
+        "heroku-postbuild": "cd client && npm run build",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "https://github.com/Brooksteven/Cinema-Plug"
+        "type": "git",
+        "url": "https://github.com/Brooksteven/Cinema-Plug"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/Brooksteven/Cinema-Plug/issues"
+        "url": "https://github.com/Brooksteven/Cinema-Plug/issues"
     },
     "homepage": "https://github.com/Brooksteven/Cinema-Plug#readme",
     "dependencies": {
-      "if-env": "^1.0.4"
+        "build": "^0.1.4",
+        "if-env": "^1.0.4"
     },
     "devDependencies": {
-      "concurrently": "^5.3.0"
+        "concurrently": "^5.3.0",
+        "webpack-cli": "^5.0.1"
     }
-  }
+}
