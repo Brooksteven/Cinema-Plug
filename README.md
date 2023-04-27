@@ -66,7 +66,7 @@ After following the instructions in installation:
   Regprince788@gmail.com
 
   [BrooklynStevenson](https://github.com/brooksteven)  
-  brooksteven54@gmail.com
+  Brooksteven580@gmail.com
 
   [YasmeinYang](https://github.com/GO4YAS)  
-  yasmein.yang@gmail.com
+  Yasmein.yang@gmail.com
