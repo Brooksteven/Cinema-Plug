@@ -3,7 +3,7 @@ Cinema Plug
 
 ## Table of Contents
   * [Description](#description)
-  * [Project Requirements](#project requirements)
+  * [Project Requirements](#projectrequirements)
   * [Installation](#installation)
   * [Usage](#usage)
   * [Technologies](#technologies)
